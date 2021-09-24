@@ -16,3 +16,43 @@ dark magenta #970B65
 */
 
 
+
+.navbar {
+    display: inline-flex;
+    align-items: center;
+    height: 400px;
+    padding-left: 20px;
+    font-size: 30px;
+    padding-left: 50px;    
+}
+
+.header__logo {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.header__menu {
+    text-transform: uppercase;
+    font-family: 'Prata', serif;
+}
+
+li {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+    color: #4d970b;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+section {
+    display: inline-block;
+}
