@@ -1,3 +1,8 @@
+body {
+    margin: auto;
+    min-height: 120vh;
+}
+
 .navbar {
     display: inline-flex;
     align-items: center;
@@ -39,22 +44,68 @@ section {
 }
 
 main {
-    display: flex;
-    justify-content: center;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact__title {
     font-family: 'Prata', serif;
-    font-size: 38px;
     color: #4D970B;
+    font-size: 38px;
+}
+
+.people__field {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact__person {
+    display: flex;
+    margin: 5vh;
+}
+
+.person__img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+.person__title {
+    font-family: 'Prata', serif;
+    color: #4D970B;
+    font-size: 18px;
+}
+
+.person__text {
+    max-width: 300px;
+    width: 100%;
+}
+
+.fa-envelope-square, .fa-phone-square {
+    color: #4D970B;
+    margin-right: 5px;
+}
+
+.contact__form {
+    margin: 5vh;
+}
+
+.form__title {
+    font-family: 'Prata', serif;
+    font-size: 22px;
+    color: #4D970B;
+    text-align: center;
 }
 
 .container {
-    width: 400px;
+    width: 100%;
     height: auto;
-    padding: 40px;
+    margin: auto;
+    padding: 2vh;
     border: 5px solid #4D970B;
     display: flex;
     flex-direction: column;
@@ -62,8 +113,8 @@ main {
 }
 
 .label {
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     font-size: 18px;
     font-weight: 600;
     color: #4D970B;
@@ -101,4 +152,13 @@ main {
 
 .button:hover {
     background-color: #D81090;
+}
+
+@media screen and (max-width: 400px) {
+    .contact__title {
+        font-size: 20px;
+    }
+    .contact__person {
+        flex-direction: column;
+    }
 }
