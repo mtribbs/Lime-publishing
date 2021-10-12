@@ -1,0 +1,344 @@
+/* fonts
+headings 
+font-family: 'Prata', serif;
+text 
+ font-family: 'Lato', sans-serif;
+ font-weight: 300;
+*/
+
+/* color theme
+lime green #64D810
+dark green #4D970B
+light green #E0FFC4
+magenta #D81090
+dark magenta #970B65
+*/
+
+/*
+section{
+    display: flex;
+
+}*/
+
+body{
+  width: 100%;
+  overflow: auto;
+  background-color: white;
+  text-align: left;
+  line-height: 1.5;
+  font-family: 'Prata', serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+.navbar {
+  display: inline-flex;
+  align-items: center;
+  height: 400px;
+  padding-left: 20px;
+  font-size: 30px;
+  padding-left: 50px;    
+}
+
+.header__logo {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+.header__menu {
+  text-transform: uppercase;
+  font-family: 'Prata', serif;
+}
+
+li {
+  list-style-type: none;
+  display: inline-flex;
+  margin: 15px;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+  color: #4d970b;
+}
+
+a:hover {
+  color: chartreuse;
+}
+
+section {
+  display: inline-block;
+}
+.block1{
+    width: 700px;
+    height: 480px;
+    margin-top: 56px;
+    margin-left: 310px;
+}
+div.new {
+    margin: 5px;
+    border: 1px solid #777;
+    float: left;
+    width: 240px;
+    padding: 15px 15px;
+  }
+  
+  div.new:hover {
+    border: 3px solid #4D970B;
+  }
+  
+  div.new img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    max-width: 240px;
+    width: 100%;
+    padding: 15px;
+    text-align: left;  
+  }
+
+  .new-book{
+      color: #D81090;
+      font-style: italic;
+      font-size: 36px;  
+      font-weight: 700; 
+  }
+
+  
+
+  /* Art category*/
+  .block2{
+      width: 700px;
+      height: 380px;
+      margin-top: 165px;
+      margin-left: 310px;
+      
+  }
+  div.art {
+    margin: 5px;
+    border: 1px solid #777;
+    float: left;
+    width: 180px;
+    padding: 15px 15px;
+    
+  }
+  
+  div.art:hover {
+    border: 3px solid #4D970B;
+  }
+  
+  div.art img {
+    width: 100%;
+    height: min-height;
+  }
+  
+  div.artinfo {
+    padding: 15px;
+    text-align: left;  
+  }
+
+  .art-books{
+      color:  black;
+      font-style: italic;   
+  }
+
+  /*Business*/
+.block3{
+    width: 1020px;
+    height: 380px;
+    margin-top: 155px;
+    margin-left: 310px;
+}
+div.business {
+  margin: 5px;
+  border: 1px solid #777;
+  float: left;
+  width: 180px;
+  padding: 15px 15px;
+  
+}
+
+div.business:hover {
+  border: 3px solid #4D970B;
+}
+
+div.business img {
+  width: 100%;
+  height: min-height;
+  
+}
+
+div.businessinfo {
+  padding: 15px;
+  text-align: left;  
+}
+
+.business-books{
+    color:  black;
+    font-style: italic;   
+}
+
+/*children's books*/
+.block4{
+    width: 1020px;
+    height: 380px;
+    margin-top: 165px;
+    margin-left: 310px;
+}
+div.children {
+  margin: 5px;
+  border: 1px solid #777;
+  float: left;
+  width: 180px;
+  padding: 15px 15px;
+  
+}
+
+div.children:hover {
+  border: 3px solid #4D970B;
+}
+
+div.children img {
+  width: 100%;
+  height: min-height;
+}
+
+div.childreninfo {
+  padding: 15px;
+  text-align: left;
+   
+}
+
+.children-books{
+    color:  black;
+    font-style: italic;   
+}
+
+/*Fiction*/
+.block5{
+  width: 1020px;
+  height: 380px;
+  margin-top: 165px;
+  margin-left: 310px;
+}
+div.fiction {
+margin: 5px;
+border: 1px solid #777;
+float: left;
+width: 180px;
+padding: 15px 15px;
+
+}
+
+div.fiction:hover {
+border: 3px solid #4D970B;
+}
+
+div.fiction img {
+width: 100%;
+height: min-height;
+}
+
+div.fictioninfo {
+padding: 15px;
+text-align: left;
+ 
+}
+
+.fiction-books{
+  color:  black;
+  font-style: italic;   
+}
+
+/*Food*/
+.block6{
+  width: 1020px;
+  height: 380px;
+  margin-top: 165px;
+  margin-left: 310px;
+}
+div.food-health {
+margin: 5px;
+border: 1px solid #777;
+float: left;
+width: 180px;
+padding: 15px 15px;
+
+}
+
+div.food-health:hover {
+border: 3px solid #4D970B;
+}
+
+div.food-health img {
+width: 100%;
+height: min-height;
+}
+
+div.foodinfo {
+padding: 15px;
+text-align: left;
+ 
+}
+
+.food-books{
+  color:  black;
+  font-style: italic;   
+}
+
+/*Travel*/
+.block7{
+  width: 1020px;
+  height: 380px;
+  margin-top: 165px;
+  margin-left: 310px;
+}
+div.travel {
+margin: 5px;
+border: 1px solid #777;
+float: left;
+width: 180px;
+padding: 15px 15px;
+
+}
+
+div.travel:hover {
+border: 3px solid #4D970B;
+}
+
+div.travel img {
+width: 100%;
+height: min-height;
+}
+
+div.travelinfo {
+padding: 15px;
+text-align: left;
+ 
+}
+
+.travel-books{
+  color:  black;
+  font-style: italic;   
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(100, 216, 16, 0.2);
+  margin-top: 60px;
+  margin-bottom: 40px;
+  /* margin-left: -5px;
+  margin-right: -5px; */
+  border-top: solid 3px #64D810;
+  border-bottom: solid 3px #64D810;
+}
+
+.footer__menu {
+  display: flex;
+  justify-content: center;
+
+}
