@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="/styles/contact.css">
 </head>
 <body>
-    <section class="main">
+    <header>
         <div class="navbar">
-            <img src="images/logo.png" alt="Lime Publishing logo" class="header__logo">
+            <img src="images/logo-lime.png" alt="Lime Publishing logo" class="header__logo">
              <nav>
                 <ul class="header__menu">
                     <li><a href="#">Home</a></li>
@@ -25,8 +25,24 @@
                 </ul>
             </nav>
         </div>
-    </section>
+    </header>
     <main class="main">
+        <form class="contact__form"> 
+            <div class="container">
+                <h4 class="form__title">Submit your manuscript!</h4>
+                <label for="name" class="label">Name</label>
+                <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name">
+                <label for="phone" class="label">Phone</label>
+                <input type="phone" name="phone" id="phone" class="input-field" placeholder="Enter your phonenumber">
+                <label for="email" class="label">Email</label>
+                <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required>
+                <label for="file" class="label">Attach your manuscript</label>
+                <input type="file" id="myFile" name="filename" class="attachment">
+                <label for="message" class="label">Message</label>
+                <textarea name="message" id="message" class="message-field" cols="30" rows="5" placeholder="Write your message" required minlength="30"></textarea>
+                <button class="button">Submit</button>
+            </div> 
+        </form>
         <div class="contact__title">
             <h2>Contact</h2>
         </div>
@@ -100,31 +116,31 @@
                 </div>
             </div>
         </div>
-        <form class="contact__form"> 
-            <div class="container">
-                <h4 class="form__title">Submit your manuscript!</h4>
-                <label for="name" class="label">Name</label>
-                <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name">
-                <label for="phone" class="label">Phone</label>
-                <input type="phone" name="phone" id="phone" class="input-field" placeholder="Enter your phonenumber">
-                <label for="email" class="label">Email</label>
-                <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required>
-                <label for="file" class="label">Attach your manuscript</label>
-                <input type="file" id="myFile" name="filename" class="attachment">
-                <label for="message" class="label">Message</label>
-                <textarea name="message" id="message" class="message-field" cols="30" rows="5" placeholder="Write your message" required minlength="30"></textarea>
-                <button class="button">Submit</button>
-            </div> 
-        </form>
-        <div class="contact__address">
-            <p>Our Stockholm office is located at Folkskolevägen 8 on Södermalm.</p>
-            <div class="contact__map">
-                <picture class="map-img">
-                    <source media="(max-width: 400px)" srcset="/images/map-sthlm-small.png">
-                    <img src="/images/map-sthlm.png" alt="">
-                </picture>
+        <div class="container--bottom">
+
+            <div class="contact__address">
+                <p>Our Stockholm office is located at Folkskolevägen 8 on Södermalm.</p>
+                <div class="contact__map">
+                    <picture class="map-img">
+                        <source media="(max-width: 400px)" srcset="/images/map-sthlm-small.png">
+                        <img src="/images/map-sthlm.png" alt="">
+                    </picture>
+                </div>
             </div>
         </div>
     </main>
+    <footer>
+        <h4>
+         <!-- <img src="images/logo-lime.png" alt="Lime Publishing logo" class="header__logo"> -->
+            <nav>
+                <ul class="footer__menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Books</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </h4>
+    </footer>
 </body>
 </html>
