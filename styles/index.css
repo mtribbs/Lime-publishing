@@ -12,9 +12,11 @@ dark green #4D970B
 light green #E0FFC4
 magenta #D81090
 dark magenta #970B65
-*
+*/
 
-}
+
+
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Prata', serif;
@@ -61,7 +63,6 @@ a {
 }
 
 a:hover {
-    color: chartreuse;
     color: #64D810;
 }
 
