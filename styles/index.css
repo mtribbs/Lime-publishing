@@ -15,8 +15,7 @@ magenta #D81090
 dark magenta #970B65
 */
 
-body {
-
+body 
 
 }
 
@@ -31,6 +30,7 @@ p {
 .board__title, .board__text, .main__title {
     padding: 20px;
 }
+
 
 .navbar {
     display: inline-flex;
@@ -70,6 +70,7 @@ a:hover {
 
 section {
     display: inline-block;
+
 }
 
 .board {
