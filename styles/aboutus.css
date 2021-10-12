@@ -55,3 +55,17 @@ a:hover {
 section {
     display: inline-block;
 }
+
+.rubrik {
+    padding: 10px;
+    color: black;
+}
+.boxleft {
+    float: left;
+    width: 40%;
+}
+
+.boxright {
+    float: right;
+    width: 40%;
+}
