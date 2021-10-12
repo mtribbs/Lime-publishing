@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <script src="https://kit.fontawesome.com/9ea22a13b1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Prata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/contact.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="images/logo-lime.png" alt="Lime Publishing logo" class="header__logo">
+             <nav>
+                <ul class="header__menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Books</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <form class="contact__form"> 
+            <div class="container">
+                <h4 class="form__title">Submit your manuscript!</h4>
+                <label for="name" class="label">Name</label>
+                <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name">
+                <label for="phone" class="label">Phone</label>
+                <input type="phone" name="phone" id="phone" class="input-field" placeholder="Enter your phonenumber">
+                <label for="email" class="label">Email</label>
+                <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required>
+                <label for="file" class="label">Attach your manuscript</label>
+                <input type="file" id="myFile" name="filename" class="attachment">
+                <label for="message" class="label">Message</label>
+                <textarea name="message" id="message" class="message-field" cols="30" rows="5" placeholder="Write your message" required minlength="30"></textarea>
+                <button class="button">Submit</button>
+            </div> 
+        </form>
+        <div class="contact__title">
+            <h2>Contact</h2>
+        </div>
+        <div class="contact__people">
+            <div class="people__field">
+                <div class="contact__person">
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="/images/lime-contact1-small.jpg">
+                        <img class="person__img" src="/images/lime-contact1.jpg" alt="">
+                    </picture>
+                    <div class="person__info">
+                        <h4 class="person__title">Clara Jones - Literary agent</h4>
+                        <p class="person__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac tortor nec felis vehicula suscipit.</p>
+                        <div class="person--phone">
+                            <p><i class="fas fa-phone-square"></i>4670707070</p>
+                        </div>
+                        <div class="person--email">
+                            <a><i class="fas fa-envelope-square"></i>clara.jones@limepublishing.com</a>  
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__person">
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="/images/lime-contact2-small.jpg">
+                        <img class="person__img" src="/images/lime-contact2.jpg" alt="">
+                    </picture>
+                    <div class="person__info">
+                        <h4 class="person__title">David Johnson - Literary agent</h4>
+                        <p class="person__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac tortor nec felis vehicula suscipit.</p>
+                        <div class="person--phone">
+                            <p><i class="fas fa-phone-square"></i>4670707070</p>
+                        </div>
+                        <div class="person--email">
+                            <a><i class="fas fa-envelope-square"></i>david.johnson@limepublishing.com</a>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="people__field">
+                <div class="contact__person">
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="/images/lime-contact3-small.jpg">
+                        <img class="person__img" src="/images/lime-contact3.jpg" alt="">
+                    </picture>
+                    <div class="person__info">
+                        <h4 class="person__title">Joseph Stone - Office Manager</h4>
+                        <p class="person__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac tortor nec felis vehicula suscipit.</p>
+                        <div class="person--phone">
+                            <p><i class="fas fa-phone-square"></i>4670707070</p>
+                        </div>
+                        <div class="person--email">
+                            <a><i class="fas fa-envelope-square"></i>joseph.stone@limepublishing.com</a>  
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__person">
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="/images/lime-contact4-small.jpg">
+                        <img class="person__img" src="/images/lime-contact4.jpg" alt="">
+                    </picture>
+                    <div class="person__info">
+                        <h4 class="person__title">Anna Smith - Contact manager</h4>
+                        <p class="person__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac tortor nec felis vehicula suscipit.</p>
+                        <div class="person--phone">
+                            <p><i class="fas fa-phone-square"></i>4670707070</p>
+                        </div>
+                        <div class="person--email">
+                            <a><i class="fas fa-envelope-square"></i>anna.smith@limepublishing.com</a>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container--bottom">
+
+            <div class="contact__address">
+                <p>Our Stockholm office is located at Folkskolevägen 8 on Södermalm.</p>
+                <div class="contact__map">
+                    <picture class="map-img">
+                        <source media="(max-width: 400px)" srcset="/images/map-sthlm-small.png">
+                        <img src="/images/map-sthlm.png" alt="">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h4>
+         <!-- <img src="images/logo-lime.png" alt="Lime Publishing logo" class="header__logo"> -->
+            <nav>
+                <ul class="footer__menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Books</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </h4>
+    </footer>
+</body>
+</html>
