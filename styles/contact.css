@@ -204,6 +204,22 @@ li {
     margin: 15px;
 }
 
+@media screen and (max-width: 800px) {
+   
+    .navbar {
+        height: 20vh;
+    }
+    .header__logo {
+        transform: scale(0.6);
+    }
+    .header__menu {
+        font-size: 20px;
+    }
+    main {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .contact__title {
         font-size: 20px;
@@ -213,5 +229,12 @@ li {
     }
     .container--bottom {
         flex-direction: column;
+    }
+
+    .header__logo {
+        display: none;
+    }
+    .header__menu {
+        font-size: 14px;
     }
 }

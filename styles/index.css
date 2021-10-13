@@ -16,7 +16,7 @@ dark magenta #970B65
 */
 
 body {
-
+    margin: auto;
 
 }
 
@@ -144,4 +144,49 @@ footer {
     display: flex;
     justify-content: center;
 
+}
+
+@media screen and (max-width: 800px) {
+    .board__text {
+        display: flex;
+        flex-direction: column;
+    }
+    .board {
+        min-height: 100vh;
+        height: 100%;
+    }
+    .navbar {
+        height: 20vh;
+    }
+    .header__logo {
+        transform: scale(0.6);
+    }
+    .header__menu {
+        font-size: 20px;
+    }
+    main {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        width: 100%;
+    }
+    .container__box {
+        max-width: 320px;
+    }
+    .header__logo {
+        display: none;
+    }
+    .header__menu {
+        font-size: 14px;
+    }
+    .board__title {
+        font-size: 24px;
+    }
+    .board__text {
+        padding: 5px;
+        padding-left: 10px;
+    }
 }
