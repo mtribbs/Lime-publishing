@@ -70,260 +70,82 @@ a:hover {
 section {
   display: inline-block;
 }
-.block1{
-    width: 700px;
-    height: 480px;
-    margin-top: 56px;
-    margin-left: 310px;
+
+main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-div.new {
-    margin: 5px;
-    border: 1px solid #777;
-    float: left;
-    width: 240px;
-    padding: 15px 15px;
-  }
+
   
-  div.new:hover {
-    border: 3px solid #4D970B;
-  }
-  
-  div.new img {
+  .img--new {
     width: 100%;
     height: auto;
   }
   
-  div.desc {
-    max-width: 240px;
-    width: 100%;
+ .info--new {
     padding: 15px;
     text-align: left;  
   }
 
-  .new-book{
+  .title--new{
       color: #D81090;
       font-style: italic;
       font-size: 36px;  
       font-weight: 700; 
   }
 
-  
-
-  /* Art category*/
-  .block2{
-      width: 700px;
-      height: 380px;
-      margin-top: 165px;
-      margin-left: 310px;
-      
+  .card--new {
+    margin: 10px;
+    border: 1px solid #777;
+    width: 300px;
+    height: 100%;
+    padding: 15px 15px;
   }
-  div.art {
-    margin: 5px;
+
+  .container--main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    width: auto;
+    height: 400px;
+    margin: 5em;
+  }
+
+  .card__title {
+    color:  black;
+    font-style: italic;
+  }
+
+  .card--book {
+    margin: 10px;
     border: 1px solid #777;
     float: left;
-    width: 180px;
+    width: 220px;
+    height: 100%;
     padding: 15px 15px;
-    
   }
-  
-  div.art:hover {
+
+  .card--book:hover, .card--new:hover {
     border: 3px solid #4D970B;
+    transform: scale(1.1);
+    cursor: pointer;
   }
-  
-  div.art img {
+
+  .img--book {
+    height: 70%;
     width: 100%;
-    height: min-height;
   }
-  
-  div.artinfo {
+
+  .info--book {
     padding: 15px;
     text-align: left;  
   }
-
-  .art-books{
-      color:  black;
-      font-style: italic;   
-  }
-
-  /*Business*/
-.block3{
-    width: 1020px;
-    height: 380px;
-    margin-top: 155px;
-    margin-left: 310px;
-}
-div.business {
-  margin: 5px;
-  border: 1px solid #777;
-  float: left;
-  width: 180px;
-  padding: 15px 15px;
-  
-}
-
-div.business:hover {
-  border: 3px solid #4D970B;
-}
-
-div.business img {
-  width: 100%;
-  height: min-height;
-  
-}
-
-div.businessinfo {
-  padding: 15px;
-  text-align: left;  
-}
-
-.business-books{
-    color:  black;
-    font-style: italic;   
-}
-
-/*children's books*/
-.block4{
-    width: 1020px;
-    height: 380px;
-    margin-top: 165px;
-    margin-left: 310px;
-}
-div.children {
-  margin: 5px;
-  border: 1px solid #777;
-  float: left;
-  width: 180px;
-  padding: 15px 15px;
-  
-}
-
-div.children:hover {
-  border: 3px solid #4D970B;
-}
-
-div.children img {
-  width: 100%;
-  height: min-height;
-}
-
-div.childreninfo {
-  padding: 15px;
-  text-align: left;
-   
-}
-
-.children-books{
-    color:  black;
-    font-style: italic;   
-}
-
-/*Fiction*/
-.block5{
-  width: 1020px;
-  height: 380px;
-  margin-top: 165px;
-  margin-left: 310px;
-}
-div.fiction {
-margin: 5px;
-border: 1px solid #777;
-float: left;
-width: 180px;
-padding: 15px 15px;
-
-}
-
-div.fiction:hover {
-border: 3px solid #4D970B;
-}
-
-div.fiction img {
-width: 100%;
-height: min-height;
-}
-
-div.fictioninfo {
-padding: 15px;
-text-align: left;
- 
-}
-
-.fiction-books{
-  color:  black;
-  font-style: italic;   
-}
-
-/*Food*/
-.block6{
-  width: 1020px;
-  height: 380px;
-  margin-top: 165px;
-  margin-left: 310px;
-}
-div.food-health {
-margin: 5px;
-border: 1px solid #777;
-float: left;
-width: 180px;
-padding: 15px 15px;
-
-}
-
-div.food-health:hover {
-border: 3px solid #4D970B;
-}
-
-div.food-health img {
-width: 100%;
-height: min-height;
-}
-
-div.foodinfo {
-padding: 15px;
-text-align: left;
- 
-}
-
-.food-books{
-  color:  black;
-  font-style: italic;   
-}
-
-/*Travel*/
-.block7{
-  width: 1020px;
-  height: 380px;
-  margin-top: 165px;
-  margin-left: 310px;
-}
-div.travel {
-margin: 5px;
-border: 1px solid #777;
-float: left;
-width: 180px;
-padding: 15px 15px;
-
-}
-
-div.travel:hover {
-border: 3px solid #4D970B;
-}
-
-div.travel img {
-width: 100%;
-height: min-height;
-}
-
-div.travelinfo {
-padding: 15px;
-text-align: left;
- 
-}
-
-.travel-books{
-  color:  black;
-  font-style: italic;   
-}
 
 footer {
   width: 100%;
@@ -341,4 +163,11 @@ footer {
   display: flex;
   justify-content: center;
 
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
