@@ -64,7 +64,7 @@ a {
 }
 
 a:hover {
-  color: chartreuse;
+  color: #64D810;
 }
 
 section {
@@ -163,6 +163,8 @@ footer {
 .footer__menu {
   display: flex;
   justify-content: center;
+  font-family: 'Prata', serif;
+  font-size: 20px;
 
 }
 
